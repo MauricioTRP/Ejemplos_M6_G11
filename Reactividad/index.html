@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reactividad</title>
+</head>
+<body>
+  <h1>Elemento reactivo</h1>
+  <input id="ingresoData" type="text">
+
+  <h1 id="titulo"></h1>
+
+  <div id="buttons"></div>
+  <div id="buttons2"></div>
+
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+  <div id="app">{{ message }}</div>
+
+  <script>
+    const { createApp, ref } = Vue
+
+    createApp({
+      setup() {
+        const message = ref('Hello vue!')
+        return {
+          message
+        }
+      }
+    }).mount('#app')
+  </script>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>

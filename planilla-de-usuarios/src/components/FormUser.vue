@@ -34,5 +34,25 @@ export default {
       <input id="masculino" type="radio" v-model="user.genero" value="M" />
     </div>
   </form>
+
+  <h2>Datos del usuario</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Nacionalidad</th>
+        <th scope="col">Género</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>{{ user.nombre }}</td>
+        <td>{{ user.nacionalidad }}</td>
+        <td>{{ user.genero }}</td>
+      </tr>
+    </tbody>
+  </table>
 </template>
 <style scoped></style>

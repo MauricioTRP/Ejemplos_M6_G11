@@ -4,3 +4,6 @@
 [submodule "hello-world"]
 	path = hello-world
 	url = git@github.com:MauricioTRP/hello-world-vue-g11.git
+[submodule "desafio-binding-II"]
+	path = desafio-binding-II
+	url = git@github.com:MauricioTRP/desafio-opcional-bindingII.git

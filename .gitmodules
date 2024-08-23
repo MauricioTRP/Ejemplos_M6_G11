@@ -1,3 +1,6 @@
 [submodule "carneses"]
 	path = carneses
 	url = git@github.com:MauricioTRP/carnesens-G11.git
+[submodule "hello-world"]
+	path = hello-world
+	url = git@github.com:MauricioTRP/hello-world-vue-g11.git

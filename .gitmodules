@@ -1,0 +1,3 @@
+[submodule "carneses"]
+	path = carneses
+	url = git@github.com:MauricioTRP/carnesens-G11.git

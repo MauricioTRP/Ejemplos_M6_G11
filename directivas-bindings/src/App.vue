@@ -8,11 +8,12 @@
 // import FormSelect from './components/FormSelect.vue'
 // import FormDinamicoImg from './components/FormDinamicoImg.vue'
 // import FormRange from './components/FormRange.vue'
-import FormCheck from './components/FormCheck.vue'
+// import FormCheckMusic from './components/FormCheckMusic.vue'
+import FormTextArea from './components/FormTextArea.vue'
 </script>
 
 <template>
-  <FormCheck />
+  <FormTextArea />
 </template>
 
 <style scoped></style>

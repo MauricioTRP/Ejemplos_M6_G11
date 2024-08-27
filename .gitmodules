@@ -7,3 +7,6 @@
 [submodule "desafio-binding-II"]
 	path = desafio-binding-II
 	url = git@github.com:MauricioTRP/desafio-opcional-bindingII.git
+[submodule "estilado-dinamico"]
+	path = estilado-dinamico
+	url = git@github.com:MauricioTRP/Vue-ejemplos-26-27.git

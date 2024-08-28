@@ -10,3 +10,6 @@
 [submodule "estilado-dinamico"]
 	path = estilado-dinamico
 	url = git@github.com:MauricioTRP/Vue-ejemplos-26-27.git
+[submodule "eventos"]
+	path = eventos
+	url = git@github.com:MauricioTRP/sesion-28-08-VUE.git

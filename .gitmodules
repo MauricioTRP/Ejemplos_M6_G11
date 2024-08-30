@@ -13,3 +13,6 @@
 [submodule "eventos"]
 	path = eventos
 	url = git@github.com:MauricioTRP/sesion-28-08-VUE.git
+[submodule "citas-medicas"]
+	path = citas-medicas
+	url = git@github.com:MauricioTRP/citas-medicas-desafio.git
